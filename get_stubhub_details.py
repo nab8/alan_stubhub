@@ -3,6 +3,8 @@ import json
 import time
 import pycurl
 import os
+# Create a config.py file in the same directory with a single line in this format.  Replace token with your actual token.
+# api_key="token"
 from config import api_key
 cwd=os.getcwd()
 from io import BytesIO
